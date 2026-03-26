@@ -23,7 +23,7 @@ sequenceDiagram
     Azure-->>StandbySidecar: 409 Conflict (Lease held by another instance)
     StandbySidecar->>StandbySidecar: Standby Loop: Wait 15 seconds
     
-    rect rgb(23, 32, 42)
+    rect rgba(128, 128, 128, 0.2)
     Note over PrimarySidecar, Azure: Normal Operation Loop 
     loop Heartbeat (Every 15s)
         PrimarySidecar->>Azure: RenewLeaseAsync()
@@ -33,7 +33,7 @@ sequenceDiagram
     
     Note over PrimarySidecar: Instance A (Primary Sidecar)<br>CRASHES abruptly! (OOM, Hardware Failure, etc.)
     
-    rect rgb(23, 32, 42)
+    rect rgba(128, 128, 128, 0.2)
     Note over StandbySidecar, Azure: Failover Wait Period (Up to 60s)
     loop Every 15s
         StandbySidecar->>Azure: TryAcquireLeaseAsync()
