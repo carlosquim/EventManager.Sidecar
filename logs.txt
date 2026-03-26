@@ -1,0 +1,3412 @@
+MT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [a862ee7e-6968-47e8-a229-89c5850a57df] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe3c4fb-301e-004d-35e6-baaee5000000
+      x-ms-client-request-id:a862ee7e-6968-47e8-a229-89c5850a57df
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:02:55 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [34a15fbb-f6ea-4d58-882c-3e072b36a935] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:34a15fbb-f6ea-4d58-882c-3e072b36a935
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:02:56 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [65e3dba9-a7bf-441a-9967-50f1bc3eebbb] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b7660fa-501e-0074-6be6-baee41000000
+      x-ms-client-request-id:65e3dba9-a7bf-441a-9967-50f1bc3eebbb
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:02:55 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [34a15fbb-f6ea-4d58-882c-3e072b36a935] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe3c563-301e-004d-10e6-baaee5000000
+      x-ms-client-request-id:34a15fbb-f6ea-4d58-882c-3e072b36a935
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:02:55 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [4e64275a-349c-4f2c-9d56-d5d3ceee8b38] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:4e64275a-349c-4f2c-9d56-d5d3ceee8b38
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:02:56 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [4e64275a-349c-4f2c-9d56-d5d3ceee8b38] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe3c58f-301e-004d-3ce6-baaee5000000
+      x-ms-client-request-id:4e64275a-349c-4f2c-9d56-d5d3ceee8b38
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:02:56 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [9bde3454-60aa-44a3-9534-dd2b48ad0893] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:9bde3454-60aa-44a3-9534-dd2b48ad0893
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:02:57 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [9bde3454-60aa-44a3-9534-dd2b48ad0893] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94b798-9003-002d-09e6-baebc7000000
+      x-ms-client-request-id:9bde3454-60aa-44a3-9534-dd2b48ad0893
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:02:56 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [a6948dc8-b2c9-4f1d-b532-ee4502a97b0e] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:a6948dc8-b2c9-4f1d-b532-ee4502a97b0e
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:06 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [84f39fbc-a888-49b0-b10c-958f50a171aa] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:84f39fbc-a888-49b0-b10c-958f50a171aa
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:06 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [a6948dc8-b2c9-4f1d-b532-ee4502a97b0e] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe3d441-301e-004d-24e6-baaee5000000
+      x-ms-client-request-id:a6948dc8-b2c9-4f1d-b532-ee4502a97b0e
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:06 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [d68086c3-40ac-4164-9396-fddeea60b4d6] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:d68086c3-40ac-4164-9396-fddeea60b4d6
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:06 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [84f39fbc-a888-49b0-b10c-958f50a171aa] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b766d80-501e-0074-7ae6-baee41000000
+      x-ms-client-request-id:84f39fbc-a888-49b0-b10c-958f50a171aa
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:05 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [2ca21c9b-e19f-472e-8853-e4f75fc9582d] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:2ca21c9b-e19f-472e-8853-e4f75fc9582d
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:06 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [d68086c3-40ac-4164-9396-fddeea60b4d6] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe3d46a-301e-004d-44e6-baaee5000000
+      x-ms-client-request-id:d68086c3-40ac-4164-9396-fddeea60b4d6
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:06 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [2ca21c9b-e19f-472e-8853-e4f75fc9582d] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b766dcd-501e-0074-3fe6-baee41000000
+      x-ms-client-request-id:2ca21c9b-e19f-472e-8853-e4f75fc9582d
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:03:06 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [3c886f07-9b28-46eb-8511-1b66db1ef133] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:3c886f07-9b28-46eb-8511-1b66db1ef133
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:07 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [3c886f07-9b28-46eb-8511-1b66db1ef133] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b766e30-501e-0074-1ce6-baee41000000
+      x-ms-client-request-id:3c886f07-9b28-46eb-8511-1b66db1ef133
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:03:06 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [62697a61-5525-4456-9f22-27e47b3896b2] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:62697a61-5525-4456-9f22-27e47b3896b2
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:17 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [4d2e4f9f-e25c-408c-a59f-cbdef478a7f6] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:4d2e4f9f-e25c-408c-a59f-cbdef478a7f6
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:17 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [62697a61-5525-4456-9f22-27e47b3896b2] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b767bfd-501e-0074-7de6-baee41000000
+      x-ms-client-request-id:62697a61-5525-4456-9f22-27e47b3896b2
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:16 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [8f4923ed-c537-4d1e-bc4a-de0d29b6c6ba] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:8f4923ed-c537-4d1e-bc4a-de0d29b6c6ba
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:17 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [4d2e4f9f-e25c-408c-a59f-cbdef478a7f6] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe3e62d-301e-004d-64e6-baaee5000000
+      x-ms-client-request-id:4d2e4f9f-e25c-408c-a59f-cbdef478a7f6
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:17 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [821891b4-49c9-43e4-ac50-4401feea159c] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:821891b4-49c9-43e4-ac50-4401feea159c
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:17 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [8f4923ed-c537-4d1e-bc4a-de0d29b6c6ba] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b767c2f-501e-0074-2ae6-baee41000000
+      x-ms-client-request-id:8f4923ed-c537-4d1e-bc4a-de0d29b6c6ba
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:16 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [821891b4-49c9-43e4-ac50-4401feea159c] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe3e704-301e-004d-2ee6-baaee5000000
+      x-ms-client-request-id:821891b4-49c9-43e4-ac50-4401feea159c
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:03:17 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [361e0fd0-a1af-4472-b95c-eb4a8eb6c568] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:361e0fd0-a1af-4472-b95c-eb4a8eb6c568
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:17 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [361e0fd0-a1af-4472-b95c-eb4a8eb6c568] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe3e76c-301e-004d-0fe6-baaee5000000
+      x-ms-client-request-id:361e0fd0-a1af-4472-b95c-eb4a8eb6c568
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:03:17 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [e0367ee6-5554-4fb8-9b31-3d71e09bd013] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:e0367ee6-5554-4fb8-9b31-3d71e09bd013
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:28 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [cc04fa8d-0845-4633-9f6d-9a903e27bfb7] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:cc04fa8d-0845-4633-9f6d-9a903e27bfb7
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:28 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [e0367ee6-5554-4fb8-9b31-3d71e09bd013] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe3fb9e-301e-004d-6fe6-baaee5000000
+      x-ms-client-request-id:e0367ee6-5554-4fb8-9b31-3d71e09bd013
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:27 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [84eacfd9-52c6-46d3-a9bc-20f5295b8c2a] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:84eacfd9-52c6-46d3-a9bc-20f5295b8c2a
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:28 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [84eacfd9-52c6-46d3-a9bc-20f5295b8c2a] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe3fbf7-301e-004d-42e6-baaee5000000
+      x-ms-client-request-id:84eacfd9-52c6-46d3-a9bc-20f5295b8c2a
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:28 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [cc04fa8d-0845-4633-9f6d-9a903e27bfb7] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76871e-501e-0074-4ee6-baee41000000
+      x-ms-client-request-id:cc04fa8d-0845-4633-9f6d-9a903e27bfb7
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:27 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [fd2fb5e0-a54d-4320-9e42-a11bd72b74e4] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:fd2fb5e0-a54d-4320-9e42-a11bd72b74e4
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:28 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [fd2fb5e0-a54d-4320-9e42-a11bd72b74e4] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b768815-501e-0074-1be6-baee41000000
+      x-ms-client-request-id:fd2fb5e0-a54d-4320-9e42-a11bd72b74e4
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:03:27 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [5e5d98e5-7661-4867-ab6b-4246981647eb] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:5e5d98e5-7661-4867-ab6b-4246981647eb
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:28 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [5e5d98e5-7661-4867-ab6b-4246981647eb] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b768847-501e-0074-43e6-baee41000000
+      x-ms-client-request-id:5e5d98e5-7661-4867-ab6b-4246981647eb
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:03:27 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [e3ffb476-aacf-4d85-9512-c85d5787b2d5] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:e3ffb476-aacf-4d85-9512-c85d5787b2d5
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:38 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [84921c99-1af1-4618-bdf5-2bf97f242154] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:84921c99-1af1-4618-bdf5-2bf97f242154
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:38 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [e3ffb476-aacf-4d85-9512-c85d5787b2d5] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b7692c8-501e-0074-62e6-baee41000000
+      x-ms-client-request-id:e3ffb476-aacf-4d85-9512-c85d5787b2d5
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:38 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [3803ec4a-a29a-43e0-bec4-481defae5c64] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:3803ec4a-a29a-43e0-bec4-481defae5c64
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:39 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [84921c99-1af1-4618-bdf5-2bf97f242154] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe40df9-301e-004d-10e6-baaee5000000
+      x-ms-client-request-id:84921c99-1af1-4618-bdf5-2bf97f242154
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:38 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [5ff5fd65-94c1-4686-9556-dae1ce3a83cf] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:5ff5fd65-94c1-4686-9556-dae1ce3a83cf
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:39 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [3803ec4a-a29a-43e0-bec4-481defae5c64] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76930a-501e-0074-18e6-baee41000000
+      x-ms-client-request-id:3803ec4a-a29a-43e0-bec4-481defae5c64
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:39 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [5ff5fd65-94c1-4686-9556-dae1ce3a83cf] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe40eaa-301e-004d-3ae6-baaee5000000
+      x-ms-client-request-id:5ff5fd65-94c1-4686-9556-dae1ce3a83cf
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:03:38 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [e1849d4e-be22-4784-bb57-84e87fe6322e] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:e1849d4e-be22-4784-bb57-84e87fe6322e
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:39 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [e1849d4e-be22-4784-bb57-84e87fe6322e] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe40eee-301e-004d-76e6-baaee5000000
+      x-ms-client-request-id:e1849d4e-be22-4784-bb57-84e87fe6322e
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:03:39 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [cdee63af-75bf-432b-897b-b123f71e6a19] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:cdee63af-75bf-432b-897b-b123f71e6a19
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:49 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [d4f46f70-f899-45af-a967-9c7ed3a49f6f] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:d4f46f70-f899-45af-a967-9c7ed3a49f6f
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:49 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [cdee63af-75bf-432b-897b-b123f71e6a19] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe42088-301e-004d-15e7-baaee5000000
+      x-ms-client-request-id:cdee63af-75bf-432b-897b-b123f71e6a19
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:49 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [b20c05c6-35a5-41e5-b440-c381593e7a32] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:b20c05c6-35a5-41e5-b440-c381593e7a32
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:49 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [d4f46f70-f899-45af-a967-9c7ed3a49f6f] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b769d59-501e-0074-2ee7-baee41000000
+      x-ms-client-request-id:d4f46f70-f899-45af-a967-9c7ed3a49f6f
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:49 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [b20c05c6-35a5-41e5-b440-c381593e7a32] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe420dd-301e-004d-64e7-baaee5000000
+      x-ms-client-request-id:b20c05c6-35a5-41e5-b440-c381593e7a32
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:49 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [f5ec4f5c-b1cb-4584-8911-4b8aff0e4c81] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:f5ec4f5c-b1cb-4584-8911-4b8aff0e4c81
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:49 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [f5ec4f5c-b1cb-4584-8911-4b8aff0e4c81] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4213e-301e-004d-3be7-baaee5000000
+      x-ms-client-request-id:f5ec4f5c-b1cb-4584-8911-4b8aff0e4c81
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:03:49 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [1f8377ce-5ade-49a9-a67f-e7b9cb88013d] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:1f8377ce-5ade-49a9-a67f-e7b9cb88013d
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:50 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [1f8377ce-5ade-49a9-a67f-e7b9cb88013d] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe421b4-301e-004d-2ae7-baaee5000000
+      x-ms-client-request-id:1f8377ce-5ade-49a9-a67f-e7b9cb88013d
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:03:49 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [5b5f317d-e92e-4ad6-bc05-ec409ae0bdbf] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:5b5f317d-e92e-4ad6-bc05-ec409ae0bdbf
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:03:50 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [5b5f317d-e92e-4ad6-bc05-ec409ae0bdbf] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94c2cb-9003-002d-22e7-baebc7000000
+      x-ms-client-request-id:5b5f317d-e92e-4ad6-bc05-ec409ae0bdbf
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:03:50 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [22aae34f-5f5d-42a2-bf94-4b7fdf0b72e2] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:22aae34f-5f5d-42a2-bf94-4b7fdf0b72e2
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:00 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [2551d8e7-3727-471f-acd9-e5f1b310cd5c] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:2551d8e7-3727-471f-acd9-e5f1b310cd5c
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:00 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [22aae34f-5f5d-42a2-bf94-4b7fdf0b72e2] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4326e-301e-004d-57e7-baaee5000000
+      x-ms-client-request-id:22aae34f-5f5d-42a2-bf94-4b7fdf0b72e2
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:00 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [d1065303-3bf0-4c64-9109-678a632dffa0] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:d1065303-3bf0-4c64-9109-678a632dffa0
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:00 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [2551d8e7-3727-471f-acd9-e5f1b310cd5c] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76a826-501e-0074-77e7-baee41000000
+      x-ms-client-request-id:2551d8e7-3727-471f-acd9-e5f1b310cd5c
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:00 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [d1065303-3bf0-4c64-9109-678a632dffa0] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe43290-301e-004d-75e7-baaee5000000
+      x-ms-client-request-id:d1065303-3bf0-4c64-9109-678a632dffa0
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:00 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [7d7faffc-7a46-4738-8bf3-3754a7b0f00a] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:7d7faffc-7a46-4738-8bf3-3754a7b0f00a
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:00 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [7d7faffc-7a46-4738-8bf3-3754a7b0f00a] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe432c9-301e-004d-2be7-baaee5000000
+      x-ms-client-request-id:7d7faffc-7a46-4738-8bf3-3754a7b0f00a
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:00 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [d36b2165-ea43-4eab-9fe3-d63da5fec936] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:d36b2165-ea43-4eab-9fe3-d63da5fec936
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:00 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [d36b2165-ea43-4eab-9fe3-d63da5fec936] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4330d-301e-004d-65e7-baaee5000000
+      x-ms-client-request-id:d36b2165-ea43-4eab-9fe3-d63da5fec936
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:00 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [5879d116-4da9-42c0-b576-d7a3ffc91e3f] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:5879d116-4da9-42c0-b576-d7a3ffc91e3f
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:11 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [a9a7f9d9-d035-4d63-99d0-e8994057d161] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:a9a7f9d9-d035-4d63-99d0-e8994057d161
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:11 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [5879d116-4da9-42c0-b576-d7a3ffc91e3f] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe44506-301e-004d-17e7-baaee5000000
+      x-ms-client-request-id:5879d116-4da9-42c0-b576-d7a3ffc91e3f
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:10 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [1d460361-5766-4bc8-abf5-efdeac5479fd] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:1d460361-5766-4bc8-abf5-efdeac5479fd
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:11 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [a9a7f9d9-d035-4d63-99d0-e8994057d161] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76b2eb-501e-0074-63e7-baee41000000
+      x-ms-client-request-id:a9a7f9d9-d035-4d63-99d0-e8994057d161
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:11 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [1d460361-5766-4bc8-abf5-efdeac5479fd] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4453d-301e-004d-46e7-baaee5000000
+      x-ms-client-request-id:1d460361-5766-4bc8-abf5-efdeac5479fd
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:10 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [a3a53daa-ac76-4efe-9d7f-a892c4c0c14c] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:a3a53daa-ac76-4efe-9d7f-a892c4c0c14c
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:11 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [a3a53daa-ac76-4efe-9d7f-a892c4c0c14c] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4458a-301e-004d-0be7-baaee5000000
+      x-ms-client-request-id:a3a53daa-ac76-4efe-9d7f-a892c4c0c14c
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:11 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [b5e755c5-fb54-4a68-b60f-231699877f77] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:b5e755c5-fb54-4a68-b60f-231699877f77
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:11 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [b5e755c5-fb54-4a68-b60f-231699877f77] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe445c2-301e-004d-38e7-baaee5000000
+      x-ms-client-request-id:b5e755c5-fb54-4a68-b60f-231699877f77
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:11 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [da8b3fbb-3ef4-4dbe-8416-0d7910ec4f48] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:da8b3fbb-3ef4-4dbe-8416-0d7910ec4f48
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:21 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [072ccdb5-a8a5-4a42-a5b6-d2441a4af684] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:072ccdb5-a8a5-4a42-a5b6-d2441a4af684
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:21 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [da8b3fbb-3ef4-4dbe-8416-0d7910ec4f48] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe455c3-301e-004d-36e7-baaee5000000
+      x-ms-client-request-id:da8b3fbb-3ef4-4dbe-8416-0d7910ec4f48
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:21 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [cd9bc445-3842-4d36-a238-7a1c4ee63c9b] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:cd9bc445-3842-4d36-a238-7a1c4ee63c9b
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:21 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [072ccdb5-a8a5-4a42-a5b6-d2441a4af684] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76be7e-501e-0074-56e7-baee41000000
+      x-ms-client-request-id:072ccdb5-a8a5-4a42-a5b6-d2441a4af684
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:21 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [cd9bc445-3842-4d36-a238-7a1c4ee63c9b] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe45603-301e-004d-71e7-baaee5000000
+      x-ms-client-request-id:cd9bc445-3842-4d36-a238-7a1c4ee63c9b
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:21 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [64ff0a30-421b-4d21-b3bf-59794b614ea7] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:64ff0a30-421b-4d21-b3bf-59794b614ea7
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [64ff0a30-421b-4d21-b3bf-59794b614ea7] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4565f-301e-004d-42e7-baaee5000000
+      x-ms-client-request-id:64ff0a30-421b-4d21-b3bf-59794b614ea7
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:21 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [a30c81af-6d89-4c9e-a792-2eccaeee6215] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:a30c81af-6d89-4c9e-a792-2eccaeee6215
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [a30c81af-6d89-4c9e-a792-2eccaeee6215] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe456b0-301e-004d-08e7-baaee5000000
+      x-ms-client-request-id:a30c81af-6d89-4c9e-a792-2eccaeee6215
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:22 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [76c58691-22cd-45ad-87d1-8468cf81ee78] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:76c58691-22cd-45ad-87d1-8468cf81ee78
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:32 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [1b99fbcd-3f39-4223-8042-268302c174a8] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:1b99fbcd-3f39-4223-8042-268302c174a8
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:32 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [76c58691-22cd-45ad-87d1-8468cf81ee78] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe46861-301e-004d-1de7-baaee5000000
+      x-ms-client-request-id:76c58691-22cd-45ad-87d1-8468cf81ee78
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:32 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [188e684e-96e0-4e05-91fa-2dd6fc655ed4] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:188e684e-96e0-4e05-91fa-2dd6fc655ed4
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:32 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [1b99fbcd-3f39-4223-8042-268302c174a8] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76ca79-501e-0074-4fe7-baee41000000
+      x-ms-client-request-id:1b99fbcd-3f39-4223-8042-268302c174a8
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:32 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [188e684e-96e0-4e05-91fa-2dd6fc655ed4] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe468a9-301e-004d-58e7-baaee5000000
+      x-ms-client-request-id:188e684e-96e0-4e05-91fa-2dd6fc655ed4
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:32 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [2c63369a-b1ac-4b26-9045-5784dfaaa3ee] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:2c63369a-b1ac-4b26-9045-5784dfaaa3ee
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:32 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [2c63369a-b1ac-4b26-9045-5784dfaaa3ee] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe468e5-301e-004d-0de7-baaee5000000
+      x-ms-client-request-id:2c63369a-b1ac-4b26-9045-5784dfaaa3ee
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:32 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [171df718-59a8-4e9f-85a5-f4fac3e71f34] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:171df718-59a8-4e9f-85a5-f4fac3e71f34
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:33 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [171df718-59a8-4e9f-85a5-f4fac3e71f34] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4693c-301e-004d-5be7-baaee5000000
+      x-ms-client-request-id:171df718-59a8-4e9f-85a5-f4fac3e71f34
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:32 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [278422cd-021a-41fd-ba86-5117d834dd41] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:278422cd-021a-41fd-ba86-5117d834dd41
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:43 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [26c582a3-caec-490d-9546-9d0466aedb61] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:26c582a3-caec-490d-9546-9d0466aedb61
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:43 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [278422cd-021a-41fd-ba86-5117d834dd41] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe47959-301e-004d-6ee7-baaee5000000
+      x-ms-client-request-id:278422cd-021a-41fd-ba86-5117d834dd41
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:42 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [60f2810f-6622-4fd4-8cbb-e671e104a5e7] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:60f2810f-6622-4fd4-8cbb-e671e104a5e7
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:43 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [26c582a3-caec-490d-9546-9d0466aedb61] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76d5c6-501e-0074-56e7-baee41000000
+      x-ms-client-request-id:26c582a3-caec-490d-9546-9d0466aedb61
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:43 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [60f2810f-6622-4fd4-8cbb-e671e104a5e7] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe479a4-301e-004d-33e7-baaee5000000
+      x-ms-client-request-id:60f2810f-6622-4fd4-8cbb-e671e104a5e7
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:43 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [154ed3a8-7170-466e-a62b-fbe654d34bd4] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:154ed3a8-7170-466e-a62b-fbe654d34bd4
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:43 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [154ed3a8-7170-466e-a62b-fbe654d34bd4] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe479f6-301e-004d-80e7-baaee5000000
+      x-ms-client-request-id:154ed3a8-7170-466e-a62b-fbe654d34bd4
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:43 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [e2f20643-a502-413b-8da5-c86c473b942c] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:e2f20643-a502-413b-8da5-c86c473b942c
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:43 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [e2f20643-a502-413b-8da5-c86c473b942c] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe47a3a-301e-004d-3ce7-baaee5000000
+      x-ms-client-request-id:e2f20643-a502-413b-8da5-c86c473b942c
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:43 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [3c54eb65-0a62-4c4b-a459-66509a152bf6] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:3c54eb65-0a62-4c4b-a459-66509a152bf6
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:51 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [3c54eb65-0a62-4c4b-a459-66509a152bf6] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94cec8-9003-002d-51e7-baebc7000000
+      x-ms-client-request-id:3c54eb65-0a62-4c4b-a459-66509a152bf6
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:51 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [b0386568-54bb-468c-a1b1-4aee59e32e42] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:b0386568-54bb-468c-a1b1-4aee59e32e42
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:53 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [2b4e4260-978a-4c86-91ef-eb9eab93c786] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:2b4e4260-978a-4c86-91ef-eb9eab93c786
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:53 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [b0386568-54bb-468c-a1b1-4aee59e32e42] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe48b9b-301e-004d-25e7-baaee5000000
+      x-ms-client-request-id:b0386568-54bb-468c-a1b1-4aee59e32e42
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:53 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [f34dfd3a-0060-4017-80b3-92201b706ee6] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:f34dfd3a-0060-4017-80b3-92201b706ee6
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:54 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [f34dfd3a-0060-4017-80b3-92201b706ee6] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe48bd0-301e-004d-53e7-baaee5000000
+      x-ms-client-request-id:f34dfd3a-0060-4017-80b3-92201b706ee6
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:53 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [2b4e4260-978a-4c86-91ef-eb9eab93c786] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76e327-501e-0074-61e7-baee41000000
+      x-ms-client-request-id:2b4e4260-978a-4c86-91ef-eb9eab93c786
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:04:54 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [b7617330-26c8-47a7-98c3-b74848c330e0] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:b7617330-26c8-47a7-98c3-b74848c330e0
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:54 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [b7617330-26c8-47a7-98c3-b74848c330e0] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76e382-501e-0074-2fe7-baee41000000
+      x-ms-client-request-id:b7617330-26c8-47a7-98c3-b74848c330e0
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:54 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [c112f61d-f3d6-4e70-a33d-98de583bfe97] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:c112f61d-f3d6-4e70-a33d-98de583bfe97
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:04:54 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [c112f61d-f3d6-4e70-a33d-98de583bfe97] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76e3aa-501e-0074-52e7-baee41000000
+      x-ms-client-request-id:c112f61d-f3d6-4e70-a33d-98de583bfe97
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:04:54 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [d49ebc1e-e22c-4df5-8cbc-1a3764bad95d] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:d49ebc1e-e22c-4df5-8cbc-1a3764bad95d
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:04 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [4d3672a0-4a0d-4c1f-aace-c3c36f6cbc19] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:4d3672a0-4a0d-4c1f-aace-c3c36f6cbc19
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:04 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [d49ebc1e-e22c-4df5-8cbc-1a3764bad95d] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76ee40-501e-0074-09e7-baee41000000
+      x-ms-client-request-id:d49ebc1e-e22c-4df5-8cbc-1a3764bad95d
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:04 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [f2996e9c-8cd8-4ece-9b66-ececbeaa811e] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:f2996e9c-8cd8-4ece-9b66-ececbeaa811e
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:04 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [4d3672a0-4a0d-4c1f-aace-c3c36f6cbc19] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe49e97-301e-004d-3ce7-baaee5000000
+      x-ms-client-request-id:4d3672a0-4a0d-4c1f-aace-c3c36f6cbc19
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:04 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [73630f57-009d-4501-bd06-edb563d8f212] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:73630f57-009d-4501-bd06-edb563d8f212
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:05 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [f2996e9c-8cd8-4ece-9b66-ececbeaa811e] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76ee69-501e-0074-2be7-baee41000000
+      x-ms-client-request-id:f2996e9c-8cd8-4ece-9b66-ececbeaa811e
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:04 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [73630f57-009d-4501-bd06-edb563d8f212] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe49efa-301e-004d-1ae7-baaee5000000
+      x-ms-client-request-id:73630f57-009d-4501-bd06-edb563d8f212
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:04 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [b05202fe-25b6-41b8-9ea6-95650b6cf631] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:b05202fe-25b6-41b8-9ea6-95650b6cf631
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:05 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [b05202fe-25b6-41b8-9ea6-95650b6cf631] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe49f1e-301e-004d-3ae7-baaee5000000
+      x-ms-client-request-id:b05202fe-25b6-41b8-9ea6-95650b6cf631
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:04 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [94a32fd3-1875-4964-a9a7-e270117b740d] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:94a32fd3-1875-4964-a9a7-e270117b740d
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:15 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [20820b96-cc1c-4b3d-bb41-b9bf6f9136b2] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:20820b96-cc1c-4b3d-bb41-b9bf6f9136b2
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:15 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [94a32fd3-1875-4964-a9a7-e270117b740d] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4acfa-301e-004d-51e7-baaee5000000
+      x-ms-client-request-id:94a32fd3-1875-4964-a9a7-e270117b740d
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:15 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [a561487f-a52d-40c2-a41a-a03f16db0173] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:a561487f-a52d-40c2-a41a-a03f16db0173
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:15 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [20820b96-cc1c-4b3d-bb41-b9bf6f9136b2] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76fad4-501e-0074-3ae7-baee41000000
+      x-ms-client-request-id:20820b96-cc1c-4b3d-bb41-b9bf6f9136b2
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:15 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [d11b976f-23bb-4b14-b242-fd331022f2fd] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:d11b976f-23bb-4b14-b242-fd331022f2fd
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:15 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [a561487f-a52d-40c2-a41a-a03f16db0173] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4ad30-301e-004d-7fe7-baaee5000000
+      x-ms-client-request-id:a561487f-a52d-40c2-a41a-a03f16db0173
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:15 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [f0045eb5-4b3a-4ab1-aadd-9e825ec66118] GET https://testcqmaksmig.blob.core.windows.net/$logs/blob/2026/03/23/1600/000002.log
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:f0045eb5-4b3a-4ab1-aadd-9e825ec66118
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:16 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [d11b976f-23bb-4b14-b242-fd331022f2fd] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76fb62-501e-0074-34e7-baee41000000
+      x-ms-client-request-id:d11b976f-23bb-4b14-b242-fd331022f2fd
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:15 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [d8f0d993-b9f3-426d-8d6e-75276d30cd2a] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:d8f0d993-b9f3-426d-8d6e-75276d30cd2a
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:16 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [d8f0d993-b9f3-426d-8d6e-75276d30cd2a] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b76fb97-501e-0074-66e7-baee41000000
+      x-ms-client-request-id:d8f0d993-b9f3-426d-8d6e-75276d30cd2a
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:15 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[5]
+      Response [f0045eb5-4b3a-4ab1-aadd-9e825ec66118] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE59B4CCAB"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4ada1-301e-004d-63e7-baaee5000000
+      x-ms-client-request-id:f0045eb5-4b3a-4ab1-aadd-9e825ec66118
+      x-ms-version:2025-01-05
+      x-ms-meta-StartTime:REDACTED
+      x-ms-meta-EndTime:REDACTED
+      x-ms-meta-LogType:REDACTED
+      x-ms-meta-LogVersion:REDACTED
+      x-ms-meta-Opaque1:REDACTED
+      x-ms-creation-time:Mon, 23 Mar 2026 17:05:14 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:15 GMT
+      Content-Length:673
+      Content-Type:application/octet-stream
+      Last-Modified:Mon, 23 Mar 2026 17:05:14 GMT
+      
+info: Azure.Core[1]
+      Request [f2e20a85-d68e-4c4f-8eb5-503161948413] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:f2e20a85-d68e-4c4f-8eb5-503161948413
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:26 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [94c14bc2-ba5a-4bae-ac6a-7af32f5b86be] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:94c14bc2-ba5a-4bae-ac6a-7af32f5b86be
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:26 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [f2e20a85-d68e-4c4f-8eb5-503161948413] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4b9af-301e-004d-79e7-baaee5000000
+      x-ms-client-request-id:f2e20a85-d68e-4c4f-8eb5-503161948413
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:25 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [bbefbf31-7fe5-45cb-94ab-aba808972134] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:bbefbf31-7fe5-45cb-94ab-aba808972134
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:26 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [94c14bc2-ba5a-4bae-ac6a-7af32f5b86be] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b7707a5-501e-0074-17e7-baee41000000
+      x-ms-client-request-id:94c14bc2-ba5a-4bae-ac6a-7af32f5b86be
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:26 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [e68468b2-e2b3-4b44-b2f9-167772d85aa1] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:e68468b2-e2b3-4b44-b2f9-167772d85aa1
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:26 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [bbefbf31-7fe5-45cb-94ab-aba808972134] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4b9db-301e-004d-1ee7-baaee5000000
+      x-ms-client-request-id:bbefbf31-7fe5-45cb-94ab-aba808972134
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:26 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [e68468b2-e2b3-4b44-b2f9-167772d85aa1] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b77082c-501e-0074-0fe7-baee41000000
+      x-ms-client-request-id:e68468b2-e2b3-4b44-b2f9-167772d85aa1
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:26 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [600347f0-3a4c-423a-ad19-8298c8027f49] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:600347f0-3a4c-423a-ad19-8298c8027f49
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:26 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [600347f0-3a4c-423a-ad19-8298c8027f49] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b770863-501e-0074-3ce7-baee41000000
+      x-ms-client-request-id:600347f0-3a4c-423a-ad19-8298c8027f49
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:26 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [78c6898f-254b-4831-b035-01b23fe2d12e] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:78c6898f-254b-4831-b035-01b23fe2d12e
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:36 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [934cddf5-a831-4cb1-86c8-56d3ecb6f137] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:934cddf5-a831-4cb1-86c8-56d3ecb6f137
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:36 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [78c6898f-254b-4831-b035-01b23fe2d12e] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b771535-501e-0074-18e7-baee41000000
+      x-ms-client-request-id:78c6898f-254b-4831-b035-01b23fe2d12e
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:36 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [101f0acd-3568-4a12-8291-2f7002ee3af8] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:101f0acd-3568-4a12-8291-2f7002ee3af8
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:37 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [934cddf5-a831-4cb1-86c8-56d3ecb6f137] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4c670-301e-004d-65e7-baaee5000000
+      x-ms-client-request-id:934cddf5-a831-4cb1-86c8-56d3ecb6f137
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:36 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [68e1ba6f-67fa-4a96-8d97-e3779015be31] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:68e1ba6f-67fa-4a96-8d97-e3779015be31
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:37 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [101f0acd-3568-4a12-8291-2f7002ee3af8] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b771575-501e-0074-50e7-baee41000000
+      x-ms-client-request-id:101f0acd-3568-4a12-8291-2f7002ee3af8
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:37 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [68e1ba6f-67fa-4a96-8d97-e3779015be31] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4c6f1-301e-004d-53e7-baaee5000000
+      x-ms-client-request-id:68e1ba6f-67fa-4a96-8d97-e3779015be31
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:36 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [a975f923-c5e5-4524-bc19-cd1944854903] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:a975f923-c5e5-4524-bc19-cd1944854903
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:37 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [a975f923-c5e5-4524-bc19-cd1944854903] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4c727-301e-004d-80e7-baaee5000000
+      x-ms-client-request-id:a975f923-c5e5-4524-bc19-cd1944854903
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:37 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [4d677752-351e-4779-838a-a471edbf2e31] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:4d677752-351e-4779-838a-a471edbf2e31
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:47 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [553dc1bf-5524-43d6-a28f-d3e922881323] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:553dc1bf-5524-43d6-a28f-d3e922881323
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:47 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [4d677752-351e-4779-838a-a471edbf2e31] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4d524-301e-004d-1ee7-baaee5000000
+      x-ms-client-request-id:4d677752-351e-4779-838a-a471edbf2e31
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:47 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [91ae4f8a-7241-42f4-980e-b9a9c4d9b089] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:91ae4f8a-7241-42f4-980e-b9a9c4d9b089
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:47 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [553dc1bf-5524-43d6-a28f-d3e922881323] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b7724aa-501e-0074-4ee7-baee41000000
+      x-ms-client-request-id:553dc1bf-5524-43d6-a28f-d3e922881323
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:47 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [47b77b20-f7ea-48c0-aab1-106576311a36] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:47b77b20-f7ea-48c0-aab1-106576311a36
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:48 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [91ae4f8a-7241-42f4-980e-b9a9c4d9b089] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4d559-301e-004d-4ee7-baaee5000000
+      x-ms-client-request-id:91ae4f8a-7241-42f4-980e-b9a9c4d9b089
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:47 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [47b77b20-f7ea-48c0-aab1-106576311a36] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b7724f2-501e-0074-12e7-baee41000000
+      x-ms-client-request-id:47b77b20-f7ea-48c0-aab1-106576311a36
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:48 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [40f189cb-5545-4016-ae9b-1d3d6312ec84] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:40f189cb-5545-4016-ae9b-1d3d6312ec84
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:48 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [40f189cb-5545-4016-ae9b-1d3d6312ec84] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b772523-501e-0074-39e7-baee41000000
+      x-ms-client-request-id:40f189cb-5545-4016-ae9b-1d3d6312ec84
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:48 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [af309ee8-961f-4685-9a39-0fb8f9cd01c9] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:af309ee8-961f-4685-9a39-0fb8f9cd01c9
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:51 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [af309ee8-961f-4685-9a39-0fb8f9cd01c9] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94d865-9003-002d-37e7-baebc7000000
+      x-ms-client-request-id:af309ee8-961f-4685-9a39-0fb8f9cd01c9
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:51 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [94311f62-1105-43cc-a334-8178f0b4e386] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:94311f62-1105-43cc-a334-8178f0b4e386
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:58 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [a4a9933e-cd53-47bc-b6fb-0328e16c32bb] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:a4a9933e-cd53-47bc-b6fb-0328e16c32bb
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:58 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [94311f62-1105-43cc-a334-8178f0b4e386] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b773011-501e-0074-1ee7-baee41000000
+      x-ms-client-request-id:94311f62-1105-43cc-a334-8178f0b4e386
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:58 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [3d962908-e6f8-4762-a82b-b2763f30b9b3] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:3d962908-e6f8-4762-a82b-b2763f30b9b3
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:58 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [a4a9933e-cd53-47bc-b6fb-0328e16c32bb] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4e56d-301e-004d-70e7-baaee5000000
+      x-ms-client-request-id:a4a9933e-cd53-47bc-b6fb-0328e16c32bb
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:58 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [d3da13bb-257a-403f-8a25-eeac58dfdafc] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:d3da13bb-257a-403f-8a25-eeac58dfdafc
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:58 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [d3da13bb-257a-403f-8a25-eeac58dfdafc] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4e5f2-301e-004d-6be7-baaee5000000
+      x-ms-client-request-id:d3da13bb-257a-403f-8a25-eeac58dfdafc
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:58 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[5]
+      Response [3d962908-e6f8-4762-a82b-b2763f30b9b3] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b773043-501e-0074-45e7-baee41000000
+      x-ms-client-request-id:3d962908-e6f8-4762-a82b-b2763f30b9b3
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:05:58 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [cc5dcbf4-ff08-4894-9130-9b9c1bf23285] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:cc5dcbf4-ff08-4894-9130-9b9c1bf23285
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:05:59 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [cc5dcbf4-ff08-4894-9130-9b9c1bf23285] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b7730a7-501e-0074-19e7-baee41000000
+      x-ms-client-request-id:cc5dcbf4-ff08-4894-9130-9b9c1bf23285
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:05:58 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [fda4c03a-1246-4eed-b99f-44992b1fbf8f] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:fda4c03a-1246-4eed-b99f-44992b1fbf8f
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:09 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [3fe9d8cf-de53-49d8-8843-e584e02f22b6] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:3fe9d8cf-de53-49d8-8843-e584e02f22b6
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:09 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [fda4c03a-1246-4eed-b99f-44992b1fbf8f] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b773c53-501e-0074-1de7-baee41000000
+      x-ms-client-request-id:fda4c03a-1246-4eed-b99f-44992b1fbf8f
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:09 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [0b32bd83-8897-435b-9a78-546aa8541436] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:0b32bd83-8897-435b-9a78-546aa8541436
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:09 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [3fe9d8cf-de53-49d8-8843-e584e02f22b6] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4f773-301e-004d-3de7-baaee5000000
+      x-ms-client-request-id:3fe9d8cf-de53-49d8-8843-e584e02f22b6
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:08 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [120d317c-4fd9-4a2a-9834-19fde35191f1] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:120d317c-4fd9-4a2a-9834-19fde35191f1
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:09 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [120d317c-4fd9-4a2a-9834-19fde35191f1] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe4f83b-301e-004d-70e7-baaee5000000
+      x-ms-client-request-id:120d317c-4fd9-4a2a-9834-19fde35191f1
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:09 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[5]
+      Response [0b32bd83-8897-435b-9a78-546aa8541436] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b773cb5-501e-0074-72e7-baee41000000
+      x-ms-client-request-id:0b32bd83-8897-435b-9a78-546aa8541436
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:09 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [ef91a2e2-575b-4928-9b5a-34c1fe695141] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:ef91a2e2-575b-4928-9b5a-34c1fe695141
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:09 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [ef91a2e2-575b-4928-9b5a-34c1fe695141] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b773d86-501e-0074-36e7-baee41000000
+      x-ms-client-request-id:ef91a2e2-575b-4928-9b5a-34c1fe695141
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:09 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [7ac2cf1a-663e-4fc8-a628-12e60701006a] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:7ac2cf1a-663e-4fc8-a628-12e60701006a
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:19 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [da0143cf-1bf5-48d5-812f-3e5f58abe60c] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:da0143cf-1bf5-48d5-812f-3e5f58abe60c
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:19 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [7ac2cf1a-663e-4fc8-a628-12e60701006a] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b77498b-501e-0074-4ee7-baee41000000
+      x-ms-client-request-id:7ac2cf1a-663e-4fc8-a628-12e60701006a
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:19 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [be75d215-5cc6-4e68-9bba-3b82822eb713] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:be75d215-5cc6-4e68-9bba-3b82822eb713
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:20 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [da0143cf-1bf5-48d5-812f-3e5f58abe60c] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe5089e-301e-004d-36e7-baaee5000000
+      x-ms-client-request-id:da0143cf-1bf5-48d5-812f-3e5f58abe60c
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:19 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [17115dd4-b223-4085-80b7-fea7ec928432] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:17115dd4-b223-4085-80b7-fea7ec928432
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:20 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [17115dd4-b223-4085-80b7-fea7ec928432] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE876766E45BA8"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe5098b-301e-004d-16e7-baaee5000000
+      x-ms-client-request-id:17115dd4-b223-4085-80b7-fea7ec928432
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Sat, 21 Mar 2026 16:32:11 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:19 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Sat, 21 Mar 2026 16:32:11 GMT
+      
+info: Azure.Core[1]
+      Request [4e77dca8-e576-4c0c-b507-8d58bbc2ea4c] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE876766E45BA8%22/samples-workitems/test-event20.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:4e77dca8-e576-4c0c-b507-8d58bbc2ea4c
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:20 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [be75d215-5cc6-4e68-9bba-3b82822eb713] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b7749d3-501e-0074-0ae7-baee41000000
+      x-ms-client-request-id:be75d215-5cc6-4e68-9bba-3b82822eb713
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:20 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [4e77dca8-e576-4c0c-b507-8d58bbc2ea4c] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88F7D8C87970"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe509ff-301e-004d-7fe7-baaee5000000
+      x-ms-client-request-id:4e77dca8-e576-4c0c-b507-8d58bbc2ea4c
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 16:18:39 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:20 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 16:18:40 GMT
+      
+info: Azure.Core[1]
+      Request [46fece52-7e8d-48dd-a8ea-9392403e05c8] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:46fece52-7e8d-48dd-a8ea-9392403e05c8
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:20 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [46fece52-7e8d-48dd-a8ea-9392403e05c8] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE804B51B2"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe50aae-301e-004d-24e7-baaee5000000
+      x-ms-client-request-id:46fece52-7e8d-48dd-a8ea-9392403e05c8
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:18 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:20 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Mon, 23 Mar 2026 17:06:18 GMT
+      
+info: Azure.Core[1]
+      Request [c3e6c3b6-61eb-450a-a641-77d7d7d6f2d1] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE88FE804B51B2%22/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:c3e6c3b6-61eb-450a-a641-77d7d7d6f2d1
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:20 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+warn: Azure.Core[8]
+      Error response [c3e6c3b6-61eb-450a-a641-77d7d7d6f2d1] 404 The specified blob does not exist. (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe50b24-301e-004d-0fe7-baaee5000000
+      x-ms-client-request-id:c3e6c3b6-61eb-450a-a641-77d7d7d6f2d1
+      x-ms-version:2025-01-05
+      x-ms-error-code:BlobNotFound
+      Date:Mon, 23 Mar 2026 17:06:20 GMT
+      
+info: Azure.Core[1]
+      Request [25ae63c1-1edd-4ce1-8679-726b7094be7e] PUT https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE88FE804B51B2%22/samples-workitems/test-event21.txt
+      x-ms-blob-type:BlockBlob
+      x-ms-meta-Incomplete:REDACTED
+      If-None-Match:*
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      Content-Length:0
+      Content-Type:application/octet-stream
+      x-ms-client-request-id:25ae63c1-1edd-4ce1-8679-726b7094be7e
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:21 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [25ae63c1-1edd-4ce1-8679-726b7094be7e] 201 Created (00.2s)
+      ETag:"0x8DE88FE81B05307"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe50bc3-301e-004d-26e7-baaee5000000
+      x-ms-client-request-id:25ae63c1-1edd-4ce1-8679-726b7094be7e
+      x-ms-version:2025-01-05
+      x-ms-content-crc64:AAAAAAAAAAA=
+      x-ms-request-server-encrypted:true
+      Date:Mon, 23 Mar 2026 17:06:20 GMT
+      Content-Length:0
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 17:06:21 GMT
+      
+info: Azure.Core[1]
+      Request [cc7bd8f9-d905-4584-95c0-3e5464d0860a] PUT https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE88FE804B51B2%22/samples-workitems/test-event21.txt?comp=lease
+      x-ms-lease-action:acquire
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-lease-duration:30
+      x-ms-proposed-lease-id:5a2ac8a9-8cdc-4db5-bc81-b9a0180c9ddc
+      x-ms-client-request-id:cc7bd8f9-d905-4584-95c0-3e5464d0860a
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:21 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [cc7bd8f9-d905-4584-95c0-3e5464d0860a] 201 Created (00.2s)
+      ETag:"0x8DE88FE81B05307"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe50c75-301e-004d-72e7-baaee5000000
+      x-ms-client-request-id:cc7bd8f9-d905-4584-95c0-3e5464d0860a
+      x-ms-version:2025-01-05
+      x-ms-lease-id:5a2ac8a9-8cdc-4db5-bc81-b9a0180c9ddc
+      Date:Mon, 23 Mar 2026 17:06:20 GMT
+      Content-Length:0
+      Last-Modified:Mon, 23 Mar 2026 17:06:21 GMT
+      
+info: Azure.Core[1]
+      Request [8436b87b-8624-413c-9ca8-82b0d900244f] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE88FE804B51B2%22/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:8436b87b-8624-413c-9ca8-82b0d900244f
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:21 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [8436b87b-8624-413c-9ca8-82b0d900244f] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE81B05307"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe50d13-301e-004d-4ee7-baaee5000000
+      x-ms-client-request-id:8436b87b-8624-413c-9ca8-82b0d900244f
+      x-ms-version:2025-01-05
+      x-ms-meta-Incomplete:REDACTED
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:21 GMT
+      x-ms-lease-status:locked
+      x-ms-lease-state:leased
+      x-ms-lease-duration:fixed
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:21 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 17:06:21 GMT
+      
+info: Azure.Core[1]
+      Request [3cca6b99-0f6c-4472-af24-bc29af0ab35a] POST https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      Content-Type:application/xml
+      x-ms-client-request-id:3cca6b99-0f6c-4472-af24-bc29af0ab35a
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:21 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [3cca6b99-0f6c-4472-af24-bc29af0ab35a] 201 Created (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94dd64-9003-002d-3ae7-baebc7000000
+      x-ms-client-request-id:3cca6b99-0f6c-4472-af24-bc29af0ab35a
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:21 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [0853bc37-8b9c-48db-a1c5-3138e071ab2c] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:0853bc37-8b9c-48db-a1c5-3138e071ab2c
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:21 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[1]
+      Request [77e1bbbc-2c67-4ac5-b4c9-4dd63fd43686] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE88FE804B51B2%22/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:77e1bbbc-2c67-4ac5-b4c9-4dd63fd43686
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:21 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [77e1bbbc-2c67-4ac5-b4c9-4dd63fd43686] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE81B05307"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe50dcb-301e-004d-74e7-baaee5000000
+      x-ms-client-request-id:77e1bbbc-2c67-4ac5-b4c9-4dd63fd43686
+      x-ms-version:2025-01-05
+      x-ms-meta-Incomplete:REDACTED
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:21 GMT
+      x-ms-lease-status:locked
+      x-ms-lease-state:leased
+      x-ms-lease-duration:fixed
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:21 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 17:06:21 GMT
+      
+info: Azure.Core[5]
+      Response [0853bc37-8b9c-48db-a1c5-3138e071ab2c] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94dd6f-9003-002d-42e7-baebc7000000
+      x-ms-client-request-id:0853bc37-8b9c-48db-a1c5-3138e071ab2c
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:21 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [e1a7deef-7531-4e14-928d-c63cd4d2e0f1] PUT https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE88FE804B51B2%22/samples-workitems/test-event21.txt?comp=metadata
+      x-ms-lease-id:5a2ac8a9-8cdc-4db5-bc81-b9a0180c9ddc
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:e1a7deef-7531-4e14-928d-c63cd4d2e0f1
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [1aa6f13b-9b7e-44e8-91e7-dbd352edec9d] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:1aa6f13b-9b7e-44e8-91e7-dbd352edec9d
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [e0a6b885-753a-4351-9b94-5ef863a2de9c] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:e0a6b885-753a-4351-9b94-5ef863a2de9c
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [e1a7deef-7531-4e14-928d-c63cd4d2e0f1] 200 OK (00.2s)
+      ETag:"0x8DE88FE82443F7C"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe50e23-301e-004d-49e7-baaee5000000
+      x-ms-client-request-id:e1a7deef-7531-4e14-928d-c63cd4d2e0f1
+      x-ms-version:2025-01-05
+      x-ms-request-server-encrypted:true
+      Date:Mon, 23 Mar 2026 17:06:21 GMT
+      Content-Length:0
+      Last-Modified:Mon, 23 Mar 2026 17:06:22 GMT
+      
+info: Azure.Core[1]
+      Request [fe8bf06b-1522-4f57-9a61-6aef9c96c89d] PUT https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE88FE804B51B2%22/samples-workitems/test-event21.txt?comp=lease
+      x-ms-lease-action:release
+      x-ms-lease-id:5a2ac8a9-8cdc-4db5-bc81-b9a0180c9ddc
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:fe8bf06b-1522-4f57-9a61-6aef9c96c89d
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [1aa6f13b-9b7e-44e8-91e7-dbd352edec9d] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE804B51B2"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b774c51-501e-0074-4de7-baee41000000
+      x-ms-client-request-id:1aa6f13b-9b7e-44e8-91e7-dbd352edec9d
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:18 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:21 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Mon, 23 Mar 2026 17:06:18 GMT
+      
+info: Azure.Core[1]
+      Request [e961a9d8-39ff-4c5e-92a1-a0768efa18d3] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:e961a9d8-39ff-4c5e-92a1-a0768efa18d3
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [e0a6b885-753a-4351-9b94-5ef863a2de9c] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94dd71-9003-002d-43e7-baebc7000000
+      x-ms-client-request-id:e0a6b885-753a-4351-9b94-5ef863a2de9c
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:22 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [61f3ec9a-7600-4afa-aeae-f4cabe31e3c8] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:61f3ec9a-7600-4afa-aeae-f4cabe31e3c8
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [fe8bf06b-1522-4f57-9a61-6aef9c96c89d] 200 OK (00.2s)
+      ETag:"0x8DE88FE82443F7C"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe50e72-301e-004d-10e7-baaee5000000
+      x-ms-client-request-id:fe8bf06b-1522-4f57-9a61-6aef9c96c89d
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:21 GMT
+      Content-Length:0
+      Last-Modified:Mon, 23 Mar 2026 17:06:22 GMT
+      
+info: Azure.Core[5]
+      Response [e961a9d8-39ff-4c5e-92a1-a0768efa18d3] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE804B51B2"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b774c8d-501e-0074-01e7-baee41000000
+      x-ms-client-request-id:e961a9d8-39ff-4c5e-92a1-a0768efa18d3
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:18 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:22 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Mon, 23 Mar 2026 17:06:18 GMT
+      
+info: Azure.Core[1]
+      Request [235afc19-1feb-4b53-bf16-ed4eabf22676] PUT https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobscaninfo/480790a3fac34f78c183bc5303da0a8e/testcqmaksmig/samples-workitems/scanInfo
+      x-ms-blob-type:BlockBlob
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      Content-Length:41
+      Content-Type:application/octet-stream
+      x-ms-client-request-id:235afc19-1feb-4b53-bf16-ed4eabf22676
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [781e98c4-de2e-41b2-a587-93da5017ffa0] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:781e98c4-de2e-41b2-a587-93da5017ffa0
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [61f3ec9a-7600-4afa-aeae-f4cabe31e3c8] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94dd79-9003-002d-48e7-baebc7000000
+      x-ms-client-request-id:61f3ec9a-7600-4afa-aeae-f4cabe31e3c8
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:22 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [235afc19-1feb-4b53-bf16-ed4eabf22676] 201 Created (00.2s)
+      ETag:"0x8DE88FE827E59CB"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b774cb8-501e-0074-28e7-baee41000000
+      x-ms-client-request-id:235afc19-1feb-4b53-bf16-ed4eabf22676
+      x-ms-version:2025-01-05
+      x-ms-content-crc64:LqoKrW1kzmQ=
+      x-ms-request-server-encrypted:true
+      Date:Mon, 23 Mar 2026 17:06:22 GMT
+      Content-Length:0
+      Content-MD5:1b3RRWeJg/Dn+l9ZCOSzTw==
+      Last-Modified:Mon, 23 Mar 2026 17:06:22 GMT
+      
+info: Azure.Core[5]
+      Response [781e98c4-de2e-41b2-a587-93da5017ffa0] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE804B51B2"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe50ec1-301e-004d-53e7-baaee5000000
+      x-ms-client-request-id:781e98c4-de2e-41b2-a587-93da5017ffa0
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:18 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:22 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Mon, 23 Mar 2026 17:06:18 GMT
+      
+info: Azure.Core[1]
+      Request [d248706f-e85d-404c-8f54-12a878de9fa1] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:d248706f-e85d-404c-8f54-12a878de9fa1
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [802bde61-15a8-40bc-a6fa-36c58261d4d1] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:802bde61-15a8-40bc-a6fa-36c58261d4d1
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [d248706f-e85d-404c-8f54-12a878de9fa1] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE804B51B2"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe50f07-301e-004d-12e7-baaee5000000
+      x-ms-client-request-id:d248706f-e85d-404c-8f54-12a878de9fa1
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:18 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:22 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Mon, 23 Mar 2026 17:06:18 GMT
+      
+info: Function.ProcessBlobAsync[1]
+      Executing 'WebJobsBlobProcessor.ProcessBlobAsync' (Reason='New blob detected(LogsAndContainerScan): samples-workitems/test-event21.txt', Id=834e27a1-39bb-4b0a-b43a-2dff8fa94f11)
+info: Function.ProcessBlobAsync[0]
+      Trigger Details: MessageId: 2062813b-b09a-41ab-8dac-6480b2015c63, DequeueCount: 1, InsertedOn: 2026-03-23T17:06:21.000+00:00, BlobCreated: 2026-03-23T17:06:18.000+00:00, BlobLastModified: 2026-03-23T17:06:18.000+00:00
+info: EventManager.Sidecar.WebJobsBlobProcessor[0]
+      [WebJobs SDK] Discovered new blob: test-event21.txt. Forwarding...
+info: System.Net.Http.HttpClient.HttpEventForwarder.LogicalHandler[100]
+      Start processing HTTP request POST http://localhost:5000/api/sidecar/blobtriggercqm01
+info: Azure.Core[5]
+      Response [802bde61-15a8-40bc-a6fa-36c58261d4d1] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94dd7b-9003-002d-4ae7-baebc7000000
+      x-ms-client-request-id:802bde61-15a8-40bc-a6fa-36c58261d4d1
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:22 GMT
+      Content-Type:application/xml
+      
+info: System.Net.Http.HttpClient.HttpEventForwarder.ClientHandler[100]
+      Sending HTTP request POST http://localhost:5000/api/sidecar/blobtriggercqm01
+info: System.Net.Http.HttpClient.HttpEventForwarder.ClientHandler[101]
+      Received HTTP response headers after 3.2412ms - 200
+info: System.Net.Http.HttpClient.HttpEventForwarder.LogicalHandler[101]
+      End processing HTTP request after 20.0689ms - 200
+info: EventManager.Sidecar.HttpEventForwarder[0]
+      Successfully forwarded event for [blobtriggercqm01] to HTTP endpoint.
+info: Function.ProcessBlobAsync[2]
+      Executed 'WebJobsBlobProcessor.ProcessBlobAsync' (Succeeded, Id=834e27a1-39bb-4b0a-b43a-2dff8fa94f11, Duration=452ms)
+info: Azure.Core[1]
+      Request [a9128066-df4c-4449-b35d-a01c3126bd67] DELETE https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages/2062813b-b09a-41ab-8dac-6480b2015c63?popreceipt=AgAAAAMAAAAAAAAA3EtSxei63AE%3D
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:a9128066-df4c-4449-b35d-a01c3126bd67
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:22 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [a9128066-df4c-4449-b35d-a01c3126bd67] 204 No Content (00.2s)
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94dd7c-9003-002d-4be7-baebc7000000
+      x-ms-client-request-id:a9128066-df4c-4449-b35d-a01c3126bd67
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:22 GMT
+      Content-Length:0
+      
+info: Azure.Core[1]
+      Request [e65ec26c-4b0d-42ee-a5bd-b6ad644bf6a9] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:e65ec26c-4b0d-42ee-a5bd-b6ad644bf6a9
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:23 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [e65ec26c-4b0d-42ee-a5bd-b6ad644bf6a9] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94dd83-9003-002d-4fe7-baebc7000000
+      x-ms-client-request-id:e65ec26c-4b0d-42ee-a5bd-b6ad644bf6a9
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:23 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [72223d59-e387-4ced-a213-b27991bb84fe] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:72223d59-e387-4ced-a213-b27991bb84fe
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:23 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [72223d59-e387-4ced-a213-b27991bb84fe] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94dd98-9003-002d-5be7-baebc7000000
+      x-ms-client-request-id:72223d59-e387-4ced-a213-b27991bb84fe
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:23 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [835e0731-c5d8-4627-9519-4755ff6a3dfb] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:835e0731-c5d8-4627-9519-4755ff6a3dfb
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:24 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [835e0731-c5d8-4627-9519-4755ff6a3dfb] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94ddaa-9003-002d-6be7-baebc7000000
+      x-ms-client-request-id:835e0731-c5d8-4627-9519-4755ff6a3dfb
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:24 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [882d02d0-bf6b-4be4-9146-cda0edef2736] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:882d02d0-bf6b-4be4-9146-cda0edef2736
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:27 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [882d02d0-bf6b-4be4-9146-cda0edef2736] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94ddd5-9003-002d-0de7-baebc7000000
+      x-ms-client-request-id:882d02d0-bf6b-4be4-9146-cda0edef2736
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:27 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [624de3d0-0d8d-4e5f-a57b-de5ef13b9929] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:624de3d0-0d8d-4e5f-a57b-de5ef13b9929
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:31 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [624de3d0-0d8d-4e5f-a57b-de5ef13b9929] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94df59-9003-002d-3be7-baebc7000000
+      x-ms-client-request-id:624de3d0-0d8d-4e5f-a57b-de5ef13b9929
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:31 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [2e774098-a59a-4b89-8d2c-0b9d8f15f9b8] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:2e774098-a59a-4b89-8d2c-0b9d8f15f9b8
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:32 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [96a11cf1-e21c-463b-9b87-5e99d26acaad] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:96a11cf1-e21c-463b-9b87-5e99d26acaad
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:32 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [2e774098-a59a-4b89-8d2c-0b9d8f15f9b8] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe52054-301e-004d-3be7-baaee5000000
+      x-ms-client-request-id:2e774098-a59a-4b89-8d2c-0b9d8f15f9b8
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:32 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [ea2f30cd-1c64-4412-98b4-e959b996b39f] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:ea2f30cd-1c64-4412-98b4-e959b996b39f
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:32 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [96a11cf1-e21c-463b-9b87-5e99d26acaad] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b7757b1-501e-0074-50e7-baee41000000
+      x-ms-client-request-id:96a11cf1-e21c-463b-9b87-5e99d26acaad
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:32 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [81fafff9-4582-43ed-8435-b4adfa08f90b] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:81fafff9-4582-43ed-8435-b4adfa08f90b
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:32 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [ea2f30cd-1c64-4412-98b4-e959b996b39f] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe520c0-301e-004d-1ee7-baaee5000000
+      x-ms-client-request-id:ea2f30cd-1c64-4412-98b4-e959b996b39f
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:32 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [81fafff9-4582-43ed-8435-b4adfa08f90b] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE804B51B2"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b77582c-501e-0074-33e7-baee41000000
+      x-ms-client-request-id:81fafff9-4582-43ed-8435-b4adfa08f90b
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:18 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:32 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Mon, 23 Mar 2026 17:06:18 GMT
+      
+info: Azure.Core[1]
+      Request [a142aa9c-104f-405a-9326-86b92c5cd33c] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE88FE804B51B2%22/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:a142aa9c-104f-405a-9326-86b92c5cd33c
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:33 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [a142aa9c-104f-405a-9326-86b92c5cd33c] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE82443F7C"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b77585e-501e-0074-5ee7-baee41000000
+      x-ms-client-request-id:a142aa9c-104f-405a-9326-86b92c5cd33c
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:21 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:33 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 17:06:22 GMT
+      
+info: Azure.Core[1]
+      Request [f4b163f3-85f8-47b5-b09a-0583fb9e75cc] GET https://testcqmaksmig.queue.core.windows.net/azure-webjobs-blobtrigger-480790a3fac34f78c183bc5303da0a8e/messages?numofmessages=32&visibilitytimeout=600
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:f4b163f3-85f8-47b5-b09a-0583fb9e75cc
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Queues/12.21.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:38 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Queues
+info: Azure.Core[5]
+      Response [f4b163f3-85f8-47b5-b09a-0583fb9e75cc] 200 OK (00.2s)
+      Cache-Control:no-cache
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fa94e123-9003-002d-53e7-baebc7000000
+      x-ms-client-request-id:f4b163f3-85f8-47b5-b09a-0583fb9e75cc
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:37 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [8793c05c-1679-4e22-a551-de5fd551c3e6] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1700&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:8793c05c-1679-4e22-a551-de5fd551c3e6
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:43 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[1]
+      Request [297dda11-eafa-4888-b2c7-a80782a6a66e] GET https://testcqmaksmig.blob.core.windows.net/samples-workitems?restype=container&comp=list&marker=&maxresults=10000
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:297dda11-eafa-4888-b2c7-a80782a6a66e
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:43 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [8793c05c-1679-4e22-a551-de5fd551c3e6] 200 OK (00.2s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b7763f4-501e-0074-76e7-baee41000000
+      x-ms-client-request-id:8793c05c-1679-4e22-a551-de5fd551c3e6
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:43 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [551ea769-f617-4078-bb86-9838e619a6dd] GET https://testcqmaksmig.blob.core.windows.net/$logs?restype=container&comp=list&prefix=blob%2F2026%2F03%2F23%2F1600&include=Metadata
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:551ea769-f617-4078-bb86-9838e619a6dd
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:43 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [297dda11-eafa-4888-b2c7-a80782a6a66e] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe5306c-301e-004d-67e7-baaee5000000
+      x-ms-client-request-id:297dda11-eafa-4888-b2c7-a80782a6a66e
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:42 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[1]
+      Request [a1c41e8d-c46e-4c5a-9117-d56e087ff2d9] HEAD https://testcqmaksmig.blob.core.windows.net/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:a1c41e8d-c46e-4c5a-9117-d56e087ff2d9
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:43 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [a1c41e8d-c46e-4c5a-9117-d56e087ff2d9] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE804B51B2"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe530f6-301e-004d-59e7-baaee5000000
+      x-ms-client-request-id:a1c41e8d-c46e-4c5a-9117-d56e087ff2d9
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:18 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:43 GMT
+      Content-Length:16
+      Content-Type:text/plain
+      Content-MD5:k1SxG7lED7Cvk3hPA+SAig==
+      Last-Modified:Mon, 23 Mar 2026 17:06:18 GMT
+      
+info: Azure.Core[1]
+      Request [afdebe6e-d98c-4c54-9e35-3f8cd0a091d8] HEAD https://testcqmaksmig.blob.core.windows.net/azure-webjobs-hosts/blobreceipts/480790a3fac34f78c183bc5303da0a8e/EventManager.Sidecar.WebJobsBlobProcessor.ProcessBlobAsync/%220x8DE88FE804B51B2%22/samples-workitems/test-event21.txt
+      x-ms-version:2025-01-05
+      Accept:application/xml
+      x-ms-client-request-id:afdebe6e-d98c-4c54-9e35-3f8cd0a091d8
+      x-ms-return-client-request-id:true
+      User-Agent:azsdk-net-Storage.Blobs/12.23.0 (.NET 10.0.5; Ubuntu 24.04.4 LTS)
+      x-ms-date:Mon, 23 Mar 2026 17:06:43 GMT
+      Authorization:REDACTED
+      client assembly: Azure.Storage.Blobs
+info: Azure.Core[5]
+      Response [551ea769-f617-4078-bb86-9838e619a6dd] 200 OK (00.4s)
+      Transfer-Encoding:chunked
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:5b77644c-501e-0074-41e7-baee41000000
+      x-ms-client-request-id:551ea769-f617-4078-bb86-9838e619a6dd
+      x-ms-version:2025-01-05
+      Date:Mon, 23 Mar 2026 17:06:43 GMT
+      Content-Type:application/xml
+      
+info: Azure.Core[5]
+      Response [afdebe6e-d98c-4c54-9e35-3f8cd0a091d8] 200 OK (00.2s)
+      Accept-Ranges:bytes
+      ETag:"0x8DE88FE82443F7C"
+      Server:Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+      x-ms-request-id:fbe5313c-301e-004d-17e7-baaee5000000
+      x-ms-client-request-id:afdebe6e-d98c-4c54-9e35-3f8cd0a091d8
+      x-ms-version:2025-01-05
+      x-ms-creation-time:Mon, 23 Mar 2026 17:06:21 GMT
+      x-ms-lease-status:unlocked
+      x-ms-lease-state:available
+      x-ms-blob-type:BlockBlob
+      x-ms-server-encrypted:true
+      x-ms-access-tier:Hot
+      x-ms-access-tier-inferred:true
+      Date:Mon, 23 Mar 2026 17:06:43 GMT
+      Content-Length:0
+      Content-Type:application/octet-stream
+      Content-MD5:1B2M2Y8AsgTpgAmY7PhCfg==
+      Last-Modified:Mon, 23 Mar 2026 17:06:22 GMT
+      
+^Cinfo: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Azure.WebJobs.Hosting.JobHostService[0]
+      Stopping JobHost
+info: Host.Startup[0]
+      Stopping the listener 'Microsoft.Azure.WebJobs.Extensions.Storage.Common.Listeners.CompositeListener' for function 'ProcessBlobAsync'
+info: Host.Startup[0]
+      Stopped the listener 'Microsoft.Azure.WebJobs.Extensions.Storage.Common.Listeners.CompositeListener' for function 'ProcessBlobAsync'
+info: Host.Startup[0]
+      Job host stopped
